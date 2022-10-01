@@ -1,0 +1,468 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664651360352279, "dur":1819, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651360354102, "dur":217, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664651360354331, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664651360354359, "dur":618, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664651360355011, "dur":745, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651360355756, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470282, "dur":236, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470518, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470538, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470541, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470550, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470552, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470559, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470561, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470568, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470570, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470576, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470578, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470586, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470588, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470597, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470602, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470613, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470615, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470621, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470623, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470629, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470631, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470636, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470638, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470645, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470658, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361470662, "dur":7545, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664651360355820, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360355820, "dur":4835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360360655, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1664651360360757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360363075, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1664651360364609, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664651360364693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360365177, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664651360366422, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664651360366501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360366563, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664651360367751, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664651360367826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360367835, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664651360369344, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664651360369420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360369475, "dur":4981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664651360374554, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360374660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360375111, "dur":200027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360575211, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360575307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360575317, "dur":36647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360612059, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360612142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360612155, "dur":50804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360663032, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360664331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360664342, "dur":68039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360732453, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360732531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360732543, "dur":55142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360787756, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360787831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360787841, "dur":41880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360829788, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360829856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360829871, "dur":29354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360859288, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360859347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360859355, "dur":74086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360933512, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651360933576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651360933587, "dur":107625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651361041493, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651361041572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664651361041582, "dur":197074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664651361238770, "dur":231505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360355589, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360355799, "dur":4865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360360666, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1664651360360789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360366785, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1664651360368318, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1664651360368437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360368449, "dur":12361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1664651360381005, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360381354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360381375, "dur":199632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360581093, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360581248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360581258, "dur":136375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360717713, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360717792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360717803, "dur":45679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360763558, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360763626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360763636, "dur":33377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360797351, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360797430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360797440, "dur":38917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360836420, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360836486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651360836496, "dur":43784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651360880348, "dur":291652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651361172010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651361172026, "dur":5683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651361178042, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651361178126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664651361178137, "dur":241324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664651361419526, "dur":50759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360355479, "dur":306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360355785, "dur":4887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360360675, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664651360360800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360367080, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1664651360368904, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360368983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360369731, "dur":18814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360388676, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360388761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360388775, "dur":189835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360578679, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360578988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360579001, "dur":34452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360613527, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360613604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360613615, "dur":150170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360763855, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360763960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360763968, "dur":31733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360795768, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360795838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360795848, "dur":33682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360829605, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360829691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360829701, "dur":28959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360858774, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651360858843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651360858853, "dur":161063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651361019976, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651361020042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664651361020049, "dur":259241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664651361279360, "dur":190919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360355550, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360355792, "dur":4890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360360682, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664651360360824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360368037, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664651360369552, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664651360369766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360369771, "dur":207704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664651360577562, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360577649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360577658, "dur":41527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360619256, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360619337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360619348, "dur":175015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360794443, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360794521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360794531, "dur":30079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360824676, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360824792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360824803, "dur":35122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360860004, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360860067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360860077, "dur":31502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360891673, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651360891777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651360891787, "dur":328660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664651361220513, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1664651361220570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651361220580, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1664651361222376, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1664651361222445, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651361222469, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1664651361224132, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1664651361224192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664651361224210, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1664651361225635, "dur":244643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360355679, "dur":125, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360355804, "dur":4849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360360653, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1664651360360780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360366020, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1664651360367265, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1664651360367327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360367374, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1664651360369330, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360369409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360369415, "dur":205918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360575422, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360575526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360575537, "dur":34332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360609944, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360610072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360610306, "dur":46715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360657085, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360657148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360657159, "dur":72249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360729480, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360729553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360729563, "dur":67118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360796773, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360796842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360796852, "dur":90913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360887834, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651360888043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651360888055, "dur":244517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651361132640, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651361132754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1664651361132764, "dur":337419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1664651361470227, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1664651361470229, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360355784, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360355784, "dur":4843, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360360650, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1664651360360653, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360360752, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1664651360360759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360362463, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1664651360364476, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664651360364543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360365532, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1664651360366871, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1664651360366955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360366967, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1664651360368815, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360368894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360369709, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360373161, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360373298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360373835, "dur":229830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360603741, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360603822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360603829, "dur":215695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360819601, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360819667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360819679, "dur":152995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360972739, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651360972807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651360972815, "dur":46148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651361019027, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651361019104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1664651361019143, "dur":276418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1664651361295611, "dur":174675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360355871, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360355872, "dur":4776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360360651, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1664651360360815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360367762, "dur":7253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1664651360375432, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360375573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360375599, "dur":202378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360603368, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360603650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360603663, "dur":106201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360709943, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360710015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360710022, "dur":26152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360736254, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360736325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360736338, "dur":76611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360813018, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360813088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360813099, "dur":78728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360891892, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360891962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360891970, "dur":80126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360972223, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651360972313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651360972323, "dur":47254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651361019654, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651361019726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361019734, "dur":47965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651361067776, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651361067858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361067872, "dur":143057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1664651361210996, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1664651361211067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361211131, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1664651361212964, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664651361213030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361213039, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664651361214664, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664651361214727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361214737, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1664651361216471, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664651361216533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361216585, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664651361218085, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1664651361218287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361218299, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1664651361219716, "dur":1637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1664651361221400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361221413, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1664651361223154, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664651361223213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361223221, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1664651361224500, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1664651361224747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1664651361224754, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1664651361226210, "dur":244070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360355950, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360355951, "dur":4705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360360660, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664651360360861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360387735, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1664651360390471, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360390563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360390575, "dur":187391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360578043, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360578113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360578120, "dur":115428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360693616, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360693696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360693706, "dur":28223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360721997, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360722075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360722089, "dur":38053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360760218, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360760325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360760337, "dur":33285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360793701, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360793790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360793804, "dur":40211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360834180, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360834278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360834289, "dur":67919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360902273, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651360902336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651360902357, "dur":299910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651361202323, "dur":79311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651361281643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1664651361281659, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1664651361284500, "dur":185784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360356008, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360356008, "dur":4639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360360650, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1664651360360866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360389263, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1664651360390995, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360391080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360391090, "dur":186418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360577576, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360577653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360577660, "dur":32143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360609890, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360610321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360610329, "dur":30931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360641346, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360641427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360641470, "dur":39516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360681068, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360681139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360681148, "dur":59520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360740738, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360740814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360740825, "dur":103805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360844713, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360844788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360844797, "dur":47085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360891973, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651360892061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651360892069, "dur":122404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651361014552, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651361014621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1664651361014630, "dur":318144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1664651361332846, "dur":137445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360356081, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360356082, "dur":4574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360360656, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1664651360360901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360394206, "dur":4599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1664651360398901, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360398985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360399021, "dur":232729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360632943, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360633065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360633075, "dur":76782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360709933, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360710010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360710019, "dur":29677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360739761, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360739841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360739852, "dur":28890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360768813, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360768878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360768887, "dur":144821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360913790, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651360913861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651360913871, "dur":215115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651361129054, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651361129122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651361129149, "dur":72580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651361201807, "dur":60551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/endel.nativewebsocket.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651361262366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1664651361262380, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/endel.nativewebsocket.dll" }}
+,{ "pid":12345, "tid":10, "ts":1664651361264107, "dur":206175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360356166, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360356166, "dur":4488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360360654, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1664651360360830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360385557, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1664651360389184, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360389253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360389262, "dur":185777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360575125, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360575220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360575232, "dur":31126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360606438, "dur":159633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360766120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360766133, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360768035, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360768110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360768120, "dur":48882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360817075, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360817148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360817156, "dur":43622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360860865, "dur":105127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360966029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360966040, "dur":6329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360972431, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651360972505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651360972511, "dur":152373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651361124946, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651361125009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1664651361125019, "dur":186803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1664651361311888, "dur":158405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360356250, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360356250, "dur":4398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360360649, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1664651360360828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360368575, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1664651360369764, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1664651360369827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360370312, "dur":12002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1664651360382408, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360382479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360382492, "dur":195109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360577672, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360577758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360577769, "dur":140257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360718101, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360718337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360718345, "dur":37435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360755928, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360756208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360756219, "dur":60721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360817017, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360817125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360817137, "dur":39164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360856372, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360856439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360856451, "dur":59293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360915829, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651360915911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651360915922, "dur":99155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651361015171, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651361015516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1664651361015526, "dur":302354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/asus/Downloads/SecondDinnerBuild/MarbleMaze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1664651361317940, "dur":152347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664651361480627, "dur":1790, "ph":"X", "name": "ProfilerWriteOutput" }
+,
